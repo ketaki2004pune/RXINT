@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="f566fe23-0fc3-4deb-a585-5b2c2e278344"
+mode="Global"
+rxversion="8.3">
+	<name>
+		VerifytheinputparametersanditsdefaultvaluesdisplayedasbelowMeanControlMu_c0
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="VerifytheinputparametersanditsdefaultvaluesdisplayedasbelowMeanControlMu_c0"
+	namespace="Master">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+	</recorditems>
+	<repository
+	id="a12d7f09-fec1-42df-8114-5fdab2124617"
+	name="MasterRepository"
+	relativepath="MasterRepository.rxrep"
+	rxversion="8.3">
+		<codegen
+		classname="MasterRepository"
+		namespace="Master">
+		</codegen>
+		<rootfolder
+		id="d3a2ae6a-0cc6-4dc4-a51c-e1c347719e71"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		VerifytheinputparametersanditsdefaultvaluesdisplayedasbelowMeanControlMu_c0.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

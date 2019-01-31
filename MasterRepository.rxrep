@@ -1,0 +1,837 @@
+﻿<repository
+id="a12d7f09-fec1-42df-8114-5fdab2124617"
+name="MasterRepository"
+rxversion="8.3">
+	<codegen
+	classname="MasterRepository"
+	namespace="Master">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="d3a2ae6a-0cc6-4dc4-a51c-e1c347719e71"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,control,nativewindow"
+		capname="form"
+		id="6f6205c0-6eac-4918-a0f9-034b94f2751f"
+		isrooted="True"
+		name="WelcomeDialog"
+		refpath="/form[@controlname='WelcomeDialog']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,control,nativewindow"
+			capname="button"
+			id="c74f1029-ab18-43fe-b582-734c52885b06"
+			name="BtnOK"
+			refimgid="106804d9-8708-4680-962d-7f259ce2bb31"
+			refpath="/form[@controlname='WelcomeDialog']/button[@controlname='btnOK']"
+			searchtimeout="30000ms">
+				/form[@controlname='WelcomeDialog']/button[@controlname='btnOK']
+			</item>
+			<item
+			addcaps="button,control,nativewindow"
+			capname="button"
+			id="3400c8fa-0df9-4f56-8f60-9f2d91c812a8"
+			name="BtnCancel"
+			refimgid="d4025f48-1dac-4e3b-9839-43d4cef98ce2"
+			refpath="/form[@controlname='WelcomeDialog']/button[@controlname='btnCancel']"
+			searchtimeout="30000ms">
+				/form[@controlname='WelcomeDialog']/button[@controlname='btnCancel']
+			</item>
+			<basepath>
+				/form[@controlname='WelcomeDialog']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAJjSURBVDhPfVNbaxNBFN53ky22QRH1oYrUVgoK
+RUWQikRpFa9o6gWlaJWqtGjFolQFHxRBEUF88z8I4oO57SZpklZjYmiRentRFFRUUKxkN9n5/GZ2
+YgUvHxxm9sz5vjnnzFnjX3CSZsS1g2XXbvjsWua9SirQqo/+D8c234toCJ60B9Ka9BpCLdoI1wqM
+6NA/UYs3kjgPeHoFmLpOuwY8uwm8usP1BlDog4jNp4gJTZlBLTEHXnwRMBoGioO0k0BpyN97Fe75
+XRxgzGJaM1jiD02VaTd8EolWiPgSCHs1xGgXMBah7QWy26CQ2wGk1/J8FUSyXbkqiUCbEhCJNnjJ
+5coprJUU6KZtIZmkzAblRy4CkemCSK/n2SblqlpzYTiW2SOsDqp3ssbj6kBkuoH8PmZwgMQe5cP3
+1/TtpiiFNURyBQw3aU4Ie41S/pWuRH4/8OgYrV87iLGDFN+sPyhAHt87+AVTt4GJy0D5ArM4oY8J
+po0CReqQgm/v+3v3G5t6mhlwSDB5leSL7PQZBrGMDyk/SOL3rMrngOl3/r50FoLlGRU7sBTjvcqB
+wgAwfpg3s9Y6PuYostXfv2CmBV1SaZgNDvvzgCzf/s1dknshZPPkrbmdfiDhxfnE6XXA81vszR7g
+4RHg8SnOwuyqEmAjz6uO1/H1JQmd8DgbXmwh1xb1vMhspPAuXnRINVmR63CtEOs/Ckxe0io+vGgT
+RKKZAh0UDUNktzODfvlPDGvqDBwrOC1TU0+a5+DEFpDcwiFbpiZQDVZh8O/kOpzUrPZqhuk+GdHG
+zssXKg7BsUOeDtMwjJ+ziZqGU85ntQAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,control,nativewindow"
+		capname="form"
+		id="15102e12-8654-4b34-aad6-6755182e9d26"
+		isrooted="True"
+		name="MainWindow"
+		refpath="/form[@controlname='MainWindow']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="text,control,nativewindow"
+			capname="text"
+			id="75e7c701-dad7-42f5-87c3-2e9c4cfe120f"
+			name="TxtLog"
+			refimgid="2afdf0fc-29f4-4dfb-8719-631f3fc8f90f"
+			refpath="/form[@controlname='MainWindow']/element[@controltypename='MdiClient']/form/container/container/text[@controlname='txtLog']"
+			searchtimeout="30000ms">
+				/form[@controlname='MainWindow']/?/?/form[@controlname='ChildWindow']/container[@controlname='UcLog']/?/?/text[@controlname='txtLog']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="6b4e417b-4bbe-4fdd-b32c-ffd61d40a834"
+			name="TwoSamples"
+			refimgid="7624c985-f052-4f55-8fa3-6731215c07c2"
+			refpath="/form[@controlname='MainWindow']/container/container[@controlname='tabEastDesign' and @caption='' and @controltypename='RibbonPanel' and @instance='1']/container[@controlname='rbnBarEastContinuous']/element/container/button[@accessiblename='Two Samples']"
+			searchtimeout="30000ms">
+				/form[@controlname='MainWindow']/container[@controlname='rbnctrlArchitect']/?/?/container[@controlname='rbnBarEastContinuous']//button[@accessiblename='Two Samples']
+			</item>
+			<item
+			addcaps="container,accessible"
+			capname="container"
+			id="c116a7e1-00a7-489c-967f-db3e40ffeff6"
+			name="Grouping"
+			refimgid="20ad4de8-5266-4b5d-b834-959d65b1069d"
+			refpath="/form[@controlname='MainWindow']/container/container[@controlname='ඇ']/element/container[1]"
+			searchtimeout="30000ms">
+				/form[@controlname='MainWindow']/container[@controlname='rbnctrlArchitect']/container[@controlname='&#3463;']/element[@accessiblerole='Default']/container[1]
+			</item>
+			<item
+			addcaps="unknown,accessible"
+			capname="unknown"
+			id="17ff5a02-8d0a-48db-bd0c-269c6aaae0f2"
+			name="Continuous"
+			refimgid="6bf96426-c7fb-4076-a9a7-3a1fb0f37f6a"
+			refpath="/form[@controlname='MainWindow']/container/container[@controlname='tabEastDesign' and @caption='' and @controltypename='RibbonPanel' and @instance='1']/container[@controlname='rbnBarEastContinuous']/element[@accessiblename='Continuous']"
+			searchtimeout="30000ms">
+				/form[@controlname='MainWindow']/container[@controlname='rbnctrlArchitect']//element[@accessiblename='Continuous']
+			</item>
+			<item
+			addcaps="unknown,accessible"
+			capname="unknown"
+			id="325a5923-69a0-40c0-8ddf-3ad57fa3273a"
+			name="DesignContinuousEndpointTwoSample"
+			refimgid="d4cf9cb9-5525-4065-9087-edbaf336c0cb"
+			refpath="/form[@controlname='MainWindow']/element[@controltypename='MdiClient']/form[@controlname='DesignChildWindow']/container[@controlname='panel1']/container[@controlname='panelDesign']/container[@controlname='tablayoutpanDesignInputOutput']/element[@controlname='barDesignInputOutput']/toolbar[@accessiblename='bar1']/element[@accessiblename='Design: Continuous Endpoint: Two-Sample Test - Parallel Design - Difference of Means']"
+			searchtimeout="30000ms">
+				/form[@controlname='MainWindow']/?/?/form[@controlname='DesignChildWindow']/container[@controlname='panel1']//toolbar[@accessiblename='bar1']/element[@accessiblename~'^Design:\ Continuous\ Endpoi']
+			</item>
+			<item
+			addcaps="text,control,nativewindow"
+			capname="text"
+			id="1ffb64b8-5a86-43a8-b360-d767c9f5cf23"
+			name="LblTypeIError"
+			refimgid="648b0590-7ab0-4fc0-b015-7b4b711742e0"
+			refpath="/form[@controlname='MainWindow']/element[@controltypename='MdiClient']/form[@controlname='DesignChildWindow']/container/container/container/container/container/container[@controlname='pnlUserControlCollection']/container/tabpagelist/tabpage[@controlname='tabErrRates']/container/container[@controlname='commonContainer_designContainerUC_commonDesignParam']/container[@controlname='pnlSymmetricAlpha']/text[@controlname='lblTypeIError']"
+			searchtimeout="30000ms">
+				/form[@controlname='MainWindow']/?/?/form[@controlname='DesignChildWindow']/container[@controlname='panel1']//container[@controlname='commonContainer']/?/?/container[@controlname='pnlUserControlCollection']//tabpage[@controlname='tabErrRates']/?/?/container[@controlname='commonContainer_designContainerUC_commonDesignParam']/container[@controlname='pnlSymmetricAlpha']/text[@controlname='lblTypeIError']
+			</item>
+			<item
+			addcaps="text,control,nativewindow"
+			capname="text"
+			id="1140f454-9080-4013-904d-b7d773f2bf1a"
+			name="TxtTypeIError"
+			refimgid="e93f3917-cb4b-454b-b2e6-b80cc052a693"
+			refpath="/form[@controlname='MainWindow']/element[@controltypename='MdiClient']/form[@controlname='DesignChildWindow']/container[@controlname='panel1']/container[@controlname='panelDesign']/container[@controlname='tablayoutpanDesignInputOutput']/container[@controlname='commonContainer']/container[@controlname='tblCommonContainer']/container[@controlname='pnlUserControlCollection']/container[@controlname='commonContainer_designContainerUC']/tabpagelist[@controlname='tabDesignPanel']/tabpage[@controlname='tabErrRates']/container[@controlname='cyTableLayoutPanel1']/container[@controlname='commonContainer_designContainerUC_commonDesignParam']/container[@controlname='pnlSymmetricAlpha']/text[@controlname='txtTypeIError']"
+			searchtimeout="30000ms">
+				/form[@controlname='MainWindow']/?/?/form[@controlname='DesignChildWindow']/container[@controlname='panel1']//container[@controlname='commonContainer']/?/?/container[@controlname='pnlUserControlCollection']//tabpage[@controlname='tabErrRates']/?/?/container[@controlname='commonContainer_designContainerUC_commonDesignParam']/container[@controlname='pnlSymmetricAlpha']/text[@controlname='txtTypeIError']
+			</item>
+			<folder
+			addcaps="container,control,nativewindow"
+			capname="container"
+			id="561a9b1c-c022-4783-bd03-0fbd12b0ca3a"
+			isrooted="True"
+			name="PnlCommonParameters"
+			refpath="/form[@controlname='MainWindow']/element[@controltypename='MdiClient']/form[@controlname='DesignChildWindow']/container[@controlname='panel1']/container[@controlname='panelDesign']/container[@controlname='tablayoutpanDesignInputOutput']/container[@controlname='commonContainer']/container[@controlname='tblCommonContainer']/container[@controlname='pnlUserControlCollection']/container[@controlname='commonContainer_designContainerUC']/tabpagelist[@controlname='tabDesignPanel']/tabpage[@controlname='tabErrRates']/container[@controlname='cyTableLayoutPanel1']/container[@controlname='commonContainer_designContainerUC_commonDesignParam']/container[@controlname='pnlCommonParameters']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="text,control,nativewindow"
+				capname="text"
+				id="65d6c52c-594e-496c-851f-9a2c99acbef7"
+				name="LblAllocationRatio"
+				refimgid="3dd850f1-77e9-4934-8b9a-65363776d768"
+				refpath="/form[@controlname='MainWindow']/element[@controltypename='MdiClient']/form[@controlname='DesignChildWindow']/container[@controlname='panel1']/container[@controlname='panelDesign']/container[@controlname='tablayoutpanDesignInputOutput']/container[@controlname='commonContainer']/container[@controlname='tblCommonContainer']/container[@controlname='pnlUserControlCollection']/container[@controlname='commonContainer_designContainerUC']/tabpagelist[@controlname='tabDesignPanel']/tabpage[@controlname='tabErrRates']/container[@controlname='cyTableLayoutPanel1']/container[@controlname='commonContainer_designContainerUC_commonDesignParam']/container[@controlname='pnlCommonParameters']/text[@controlname='lblAllocationRatio']"
+				searchtimeout="30000ms">
+					/form[@controlname='MainWindow']/?/?/form[@controlname='DesignChildWindow']/container[@controlname='panel1']//container[@controlname='commonContainer']/?/?/container[@controlname='pnlUserControlCollection']//tabpage[@controlname='tabErrRates']/?/?/container[@controlname='commonContainer_designContainerUC_commonDesignParam']/container[@controlname='pnlCommonParameters']/text[@controlname='lblAllocationRatio']
+				</item>
+				<item
+				addcaps="text,control,nativewindow"
+				capname="text"
+				id="389b7ce9-e416-49e4-864b-81b946a81260"
+				name="LblAllocationRatioformula"
+				refimgid="8aa27284-8925-42bf-99cf-270da41b0b4a"
+				refpath="/form[@controlname='MainWindow']/element[@controltypename='MdiClient']/form[@controlname='DesignChildWindow']/container[@controlname='panel1']/container[@controlname='panelDesign']/container[@controlname='tablayoutpanDesignInputOutput']/container[@controlname='commonContainer']/container[@controlname='tblCommonContainer']/container[@controlname='pnlUserControlCollection']/container[@controlname='commonContainer_designContainerUC']/tabpagelist[@controlname='tabDesignPanel']/tabpage[@controlname='tabErrRates']/container[@controlname='cyTableLayoutPanel1']/container[@controlname='commonContainer_designContainerUC_commonDesignParam']/container[@controlname='pnlCommonParameters']/text[@controlname='lblAllocationRatioformula']"
+				searchtimeout="30000ms">
+					/form[@controlname='MainWindow']/?/?/form[@controlname='DesignChildWindow']/container[@controlname='panel1']//container[@controlname='commonContainer']/?/?/container[@controlname='pnlUserControlCollection']//tabpage[@controlname='tabErrRates']/?/?/container[@controlname='commonContainer_designContainerUC_commonDesignParam']/container[@controlname='pnlCommonParameters']/text[@controlname='lblAllocationRatioformula']
+				</item>
+				<item
+				addcaps="text,control,nativewindow"
+				capname="text"
+				id="42d9cc1a-da80-44e2-8be7-78e48daa5810"
+				name="LblPower"
+				refimgid="6d5c7eb5-8642-49f3-9814-6597ab31ef3e"
+				refpath="/form[@controlname='MainWindow']/element[@controltypename='MdiClient']/form[@controlname='DesignChildWindow']/container[@controlname='panel1']/container[@controlname='panelDesign']/container[@controlname='tablayoutpanDesignInputOutput']/container[@controlname='commonContainer']/container[@controlname='tblCommonContainer']/container[@controlname='pnlUserControlCollection']/container[@controlname='commonContainer_designContainerUC']/tabpagelist[@controlname='tabDesignPanel']/tabpage[@controlname='tabErrRates']/container[@controlname='cyTableLayoutPanel1']/container[@controlname='commonContainer_designContainerUC_commonDesignParam']/container[@controlname='pnlCommonParameters']/text[@controlname='lblPower']"
+				searchtimeout="30000ms">
+					/form[@controlname='MainWindow']/?/?/form[@controlname='DesignChildWindow']/container[@controlname='panel1']//container[@controlname='commonContainer']/?/?/container[@controlname='pnlUserControlCollection']//tabpage[@controlname='tabErrRates']/?/?/container[@controlname='commonContainer_designContainerUC_commonDesignParam']/container[@controlname='pnlCommonParameters']/text[@controlname='lblPower']
+				</item>
+				<item
+				addcaps="text,control,nativewindow"
+				capname="text"
+				id="6d336b0c-ad66-43ac-8ecc-49bade3fbb28"
+				name="LblSampleSize"
+				refimgid="0f38b825-0829-46d1-b0e4-dfb5cb73d0cd"
+				refpath="/form[@controlname='MainWindow']/element[@controltypename='MdiClient']/form[@controlname='DesignChildWindow']/container[@controlname='panel1']/container[@controlname='panelDesign']/container[@controlname='tablayoutpanDesignInputOutput']/container[@controlname='commonContainer']/container[@controlname='tblCommonContainer']/container[@controlname='pnlUserControlCollection']/container[@controlname='commonContainer_designContainerUC']/tabpagelist[@controlname='tabDesignPanel']/tabpage[@controlname='tabErrRates']/container[@controlname='cyTableLayoutPanel1']/container[@controlname='commonContainer_designContainerUC_commonDesignParam']/container[@controlname='pnlCommonParameters']/text[@controlname='lblSampleSize']"
+				searchtimeout="30000ms">
+					/form[@controlname='MainWindow']/?/?/form[@controlname='DesignChildWindow']/container[@controlname='panel1']//container[@controlname='commonContainer']/?/?/container[@controlname='pnlUserControlCollection']//tabpage[@controlname='tabErrRates']/?/?/container[@controlname='commonContainer_designContainerUC_commonDesignParam']/container[@controlname='pnlCommonParameters']/text[@controlname='lblSampleSize']
+				</item>
+				<item
+				addcaps="text,control,nativewindow"
+				capname="text"
+				id="15e483a8-e861-48fc-990f-e0ea09a79595"
+				name="TxtAllocationRatio"
+				refimgid="a6b31102-0a9d-48dc-afb4-1f56b1d46d27"
+				refpath="/form[@controlname='MainWindow']/element[@controltypename='MdiClient']/form[@controlname='DesignChildWindow']/container[@controlname='panel1']/container[@controlname='panelDesign']/container[@controlname='tablayoutpanDesignInputOutput']/container[@controlname='commonContainer']/container[@controlname='tblCommonContainer']/container[@controlname='pnlUserControlCollection']/container[@controlname='commonContainer_designContainerUC']/tabpagelist[@controlname='tabDesignPanel']/tabpage[@controlname='tabErrRates']/container[@controlname='cyTableLayoutPanel1']/container[@controlname='commonContainer_designContainerUC_commonDesignParam']/container[@controlname='pnlCommonParameters']/text[@controlname='txtAllocationRatio']"
+				searchtimeout="30000ms">
+					/form[@controlname='MainWindow']/?/?/form[@controlname='DesignChildWindow']/container[@controlname='panel1']//container[@controlname='commonContainer']/?/?/container[@controlname='pnlUserControlCollection']//tabpage[@controlname='tabErrRates']/?/?/container[@controlname='commonContainer_designContainerUC_commonDesignParam']/container[@controlname='pnlCommonParameters']/text[@controlname='txtAllocationRatio']
+				</item>
+				<item
+				addcaps="text,control,nativewindow"
+				capname="text"
+				id="904b11c3-611b-4bf3-86b4-238853077945"
+				name="TxtPower"
+				refimgid="6545dc3e-3a80-43db-9135-3e1a80891a89"
+				refpath="/form[@controlname='MainWindow']/element[@controltypename='MdiClient']/form[@controlname='DesignChildWindow']/container[@controlname='panel1']/container[@controlname='panelDesign']/container[@controlname='tablayoutpanDesignInputOutput']/container[@controlname='commonContainer']/container[@controlname='tblCommonContainer']/container[@controlname='pnlUserControlCollection']/container[@controlname='commonContainer_designContainerUC']/tabpagelist[@controlname='tabDesignPanel']/tabpage[@controlname='tabErrRates']/container[@controlname='cyTableLayoutPanel1']/container[@controlname='commonContainer_designContainerUC_commonDesignParam']/container[@controlname='pnlCommonParameters']/text[@controlname='txtPower']"
+				searchtimeout="30000ms">
+					/form[@controlname='MainWindow']/?/?/form[@controlname='DesignChildWindow']/container[@controlname='panel1']//container[@controlname='commonContainer']/?/?/container[@controlname='pnlUserControlCollection']//tabpage[@controlname='tabErrRates']/?/?/container[@controlname='commonContainer_designContainerUC_commonDesignParam']/container[@controlname='pnlCommonParameters']/text[@controlname='txtPower']
+				</item>
+				<item
+				addcaps="text,control,nativewindow"
+				capname="text"
+				id="fa55cd16-f132-4435-9277-2af4735d55a5"
+				name="TxtSampleSize"
+				refimgid="02470b28-226e-4176-969c-6965f7af29c7"
+				refpath="/form[@controlname='MainWindow']/element[@controltypename='MdiClient']/form[@controlname='DesignChildWindow']/container[@controlname='panel1']/container[@controlname='panelDesign']/container[@controlname='tablayoutpanDesignInputOutput']/container[@controlname='commonContainer']/container[@controlname='tblCommonContainer']/container[@controlname='pnlUserControlCollection']/container[@controlname='commonContainer_designContainerUC']/tabpagelist[@controlname='tabDesignPanel']/tabpage[@controlname='tabErrRates']/container[@controlname='cyTableLayoutPanel1']/container[@controlname='commonContainer_designContainerUC_commonDesignParam']/container[@controlname='pnlCommonParameters']/text[@controlname='txtSampleSize']"
+				searchtimeout="30000ms">
+					/form[@controlname='MainWindow']/?/?/form[@controlname='DesignChildWindow']/container[@controlname='panel1']//container[@controlname='commonContainer']/?/?/container[@controlname='pnlUserControlCollection']//tabpage[@controlname='tabErrRates']/?/?/container[@controlname='commonContainer_designContainerUC_commonDesignParam']/container[@controlname='pnlCommonParameters']/text[@controlname='txtSampleSize']
+				</item>
+				<basepath>
+					/form[@controlname='MainWindow']/?/?/form[@controlname='DesignChildWindow']/container[@controlname='panel1']//container[@controlname='commonContainer']/?/?/container[@controlname='pnlUserControlCollection']//tabpage[@controlname='tabErrRates']/?/?/container[@controlname='commonContainer_designContainerUC_commonDesignParam']/container[@controlname='pnlCommonParameters']
+				</basepath>
+			</folder>
+			<folder
+			addcaps="container,control,nativewindow"
+			capname="container"
+			id="e6dff44b-463e-4677-a740-70ce8d8556b4"
+			isrooted="True"
+			name="PnlUserControlCollection"
+			refpath="/form[@controlname='MainWindow']/element[@controltypename='MdiClient']/form[@controlname='DesignChildWindow']/container[@controlname='panel1']/container[@controlname='panelDesign']/container[@controlname='tablayoutpanDesignInputOutput']/container[@controlname='commonContainer']/container[@controlname='tblCommonContainer']/container[@controlname='pnlUserControlCollection']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="radiobutton,control,nativewindow"
+				capname="radiobutton"
+				id="538361a8-902e-4f4e-b836-93787ff87856"
+				name="RdbOutputPower"
+				refimgid="6ef14169-23db-41ff-b09e-5ee8d53b7cdd"
+				refpath="/form[@controlname='MainWindow']/element[@controltypename='MdiClient']/form[@controlname='DesignChildWindow']/container/container/container/container/container/container[@controlname='pnlUserControlCollection']/container/tabpagelist/tabpage[@controlname='tabErrRates']/container/container[@controlname='commonContainer_designContainerUC_commonDesignParam']/radiobutton[@controlname='rdbOutputPower']"
+				searchtimeout="30000ms">
+					/form[@controlname='MainWindow']/?/?/form[@controlname='DesignChildWindow']/container[@controlname='panel1']//container[@controlname='commonContainer']/?/?/container[@controlname='pnlUserControlCollection']//tabpage[@controlname='tabErrRates']/?/?/container[@controlname='commonContainer_designContainerUC_commonDesignParam']/radiobutton[@controlname='rdbOutputPower']
+				</item>
+				<item
+				addcaps="radiobutton,control,nativewindow"
+				capname="radiobutton"
+				id="fa684cb9-bb3c-4181-af01-3a15fc09ec50"
+				name="RdbOutputSS"
+				refimgid="42b78452-1b49-4a6c-8d87-9b7cf52614ba"
+				refpath="/form[@controlname='MainWindow']/element[@controltypename='MdiClient']/form[@controlname='DesignChildWindow']/container[@controlname='panel1']/container[@controlname='panelDesign']/container[@controlname='tablayoutpanDesignInputOutput']/container[@controlname='commonContainer']/container[@controlname='tblCommonContainer']/container[@controlname='pnlUserControlCollection']/container[@controlname='commonContainer_designContainerUC']/tabpagelist[@controlname='tabDesignPanel']/tabpage[@controlname='tabErrRates']/container[@controlname='cyTableLayoutPanel1']/container[@controlname='commonContainer_designContainerUC_commonDesignParam']/radiobutton[@controlname='rdbOutputSS']"
+				searchtimeout="30000ms">
+					/form[@controlname='MainWindow']/?/?/form[@controlname='DesignChildWindow']/container[@controlname='panel1']//container[@controlname='commonContainer']/?/?/container[@controlname='pnlUserControlCollection']//tabpage[@controlname='tabErrRates']/?/?/container[@controlname='commonContainer_designContainerUC_commonDesignParam']/radiobutton[@controlname='rdbOutputSS']
+				</item>
+				<item
+				addcaps="tabpage,control,nativewindow"
+				capname="tabpage"
+				id="1ad66096-d63f-4c46-a03e-606c44e96c11"
+				name="TabErrRates"
+				refimgid="a00a3f8b-2c8d-44e6-bea0-315d7e5aaccd"
+				refpath="/form[@controlname='MainWindow']/element[@controltypename='MdiClient']/form[@controlname='DesignChildWindow']/container/container/container/container/container/container[@controlname='pnlUserControlCollection']/container/tabpagelist/tabpage[@controlname='tabErrRates']"
+				searchtimeout="30000ms">
+					/form[@controlname='MainWindow']/?/?/form[@controlname='DesignChildWindow']/container[@controlname='panel1']//container[@controlname='commonContainer']/?/?/container[@controlname='pnlUserControlCollection']/?/?/tabpagelist[@controlname='tabDesignPanel']/tabpage[@controlname='tabErrRates']
+				</item>
+				<item
+				addcaps="text,control,nativewindow"
+				capname="text"
+				id="01c6048a-5141-412d-9ecc-7e1b17aa722c"
+				name="LblSampleSize"
+				refimgid="423cb068-7ee3-49db-b2f6-360fb7d0cbad"
+				refpath="/form[@controlname='MainWindow']/element[@controltypename='MdiClient']/form[@controlname='DesignChildWindow']/container/container/container/container/container/container[@controlname='pnlUserControlCollection']/container/tabpagelist/tabpage[@controlname='tabPageDesignParams']/container/container[@controlname='commonContainer_designUC_commonDesignParamsUC']/container/text[@controlname='lblSampleSize']"
+				searchtimeout="30000ms">
+					/form[@controlname='MainWindow']/?/?/form[@controlname='DesignChildWindow']/container[@controlname='panel1']//container[@controlname='commonContainer']/?/?/container[@controlname='pnlUserControlCollection']/?/?/tabpagelist[@controlname='tabDesignPanel']/tabpage[@controlname='tabPageDesignParams']/?/?/container[@controlname='commonContainer_designUC_commonDesignParamsUC']/?/?/text[@controlname='lblSampleSize']
+				</item>
+				<item
+				addcaps="text,control,nativewindow"
+				capname="text"
+				id="b5eae596-695f-4d8a-9625-f674ad92e2bc"
+				name="LblModifiedPower"
+				refimgid="789f7a9d-e2e1-4463-8bd4-336d4d02f639"
+				refpath="/form[@controlname='MainWindow']/element[@controltypename='MdiClient']/form/container/container/container/container/container/container[@controlname='pnlUserControlCollection']/container/tabpagelist/tabpage[@controlname='tabErrRates']/container/container[@controlname='commonContainer_designContainerUC_endPointParamsUC']/container/text[@controlname='lblModifiedPower']"
+				searchtimeout="30000ms">
+					/form[@controlname='MainWindow']/?/?/form[@controlname='DesignChildWindow']/container[@controlname='panel1']//container[@controlname='commonContainer']/?/?/container[@controlname='pnlUserControlCollection']/?/?/tabpagelist[@controlname='tabDesignPanel']/tabpage[@controlname='tabErrRates']/?/?/container[@controlname='commonContainer_designContainerUC_endPointParamsUC']/?/?/text[@controlname='lblModifiedPower']
+				</item>
+				<item
+				addcaps="text,control,nativewindow"
+				capname="text"
+				id="6fc51374-a4e0-49d7-91e0-b63ec65ee39b"
+				name="LblMeanControl"
+				refimgid="d3d741e4-d3ce-4daa-ba20-8266755c1f8c"
+				refpath="/form[@controlname='MainWindow']/element[@controltypename='MdiClient']/form[@controlname='DesignChildWindow']/container/container/container/container/container/container[@controlname='pnlUserControlCollection']/container/tabpagelist/tabpage[@controlname='tabErrRates']/container/container[@controlname='commonContainer_designContainerUC_endPointParamsUC']/container/container[@controlname='tblPanelDiffOfMeans']/container[@controlname='grpMeanCtrl']/text[@controlname='lblMeanControl']"
+				searchtimeout="30000ms">
+					/form[@controlname='MainWindow']/?/?/form[@controlname='DesignChildWindow']/container[@controlname='panel1']//container[@controlname='commonContainer']/?/?/container[@controlname='pnlUserControlCollection']//tabpage[@controlname='tabErrRates']/?/?/container[@controlname='commonContainer_designContainerUC_endPointParamsUC']/?/?/container[@controlname='tblPanelDiffOfMeans']/container[@controlname='grpMeanCtrl']/text[@controlname='lblMeanControl']
+				</item>
+				<item
+				addcaps="text,control,nativewindow"
+				capname="text"
+				id="7800c6b9-807e-4383-912d-7d3648570de9"
+				name="TxtMeanControl"
+				refimgid="dfed1c89-07d8-4b46-86e0-1471fb8a16ff"
+				refpath="/form[@controlname='MainWindow']/element[@controltypename='MdiClient']/form[@controlname='DesignChildWindow']/container[@controlname='panel1']/container[@controlname='panelDesign']/container[@controlname='tablayoutpanDesignInputOutput']/container[@controlname='commonContainer']/container[@controlname='tblCommonContainer']/container[@controlname='pnlUserControlCollection']/container[@controlname='commonContainer_designContainerUC']/tabpagelist[@controlname='tabDesignPanel']/tabpage[@controlname='tabErrRates']/container[@controlname='cyTableLayoutPanel1']/container[@controlname='commonContainer_designContainerUC_endPointParamsUC']/container[@controlname='commonContainer_designContainerUC_endPointParamsUC_diffOfMeansUC']/container[@controlname='tblPanelDiffOfMeans']/container[@controlname='grpMeanCtrl']/text[@controlname='txtMeanControl']"
+				searchtimeout="30000ms">
+					/form[@controlname='MainWindow']/?/?/form[@controlname='DesignChildWindow']/container[@controlname='panel1']//container[@controlname='commonContainer']/?/?/container[@controlname='pnlUserControlCollection']//tabpage[@controlname='tabErrRates']/?/?/container[@controlname='commonContainer_designContainerUC_endPointParamsUC']/?/?/container[@controlname='tblPanelDiffOfMeans']/container[@controlname='grpMeanCtrl']/text[@controlname='txtMeanControl']
+				</item>
+				<item
+				addcaps="text,control,nativewindow"
+				capname="text"
+				id="1eb49918-6577-42a4-a3ec-5f6b65f24790"
+				name="LblStdDeviation"
+				refimgid="94569c4c-8f87-4769-bfb0-c01dcd9308e0"
+				refpath="/form[@controlname='MainWindow']/element[@controltypename='MdiClient']/form[@controlname='DesignChildWindow']/container[@controlname='panel1']/container[@controlname='panelDesign']/container[@controlname='tablayoutpanDesignInputOutput']/container[@controlname='commonContainer']/container[@controlname='tblCommonContainer']/container[@controlname='pnlUserControlCollection']/container[@controlname='commonContainer_designContainerUC']/tabpagelist[@controlname='tabDesignPanel']/tabpage[@controlname='tabErrRates']/container[@controlname='cyTableLayoutPanel1']/container[@controlname='commonContainer_designContainerUC_endPointParamsUC']/container[@controlname='commonContainer_designContainerUC_endPointParamsUC_diffOfMeansUC']/container[@controlname='grpStdDev']/text[@controlname='lblStdDeviation']"
+				searchtimeout="30000ms">
+					/form[@controlname='MainWindow']/?/?/form[@controlname='DesignChildWindow']/container[@controlname='panel1']//container[@controlname='commonContainer']/?/?/container[@controlname='pnlUserControlCollection']//tabpage[@controlname='tabErrRates']/?/?/container[@controlname='commonContainer_designContainerUC_endPointParamsUC']/?/?/container[@controlname='grpStdDev']/text[@controlname='lblStdDeviation']
+				</item>
+				<item
+				addcaps="text,control,nativewindow"
+				capname="text"
+				id="882a0186-daec-43d9-a514-3cc5999479e3"
+				name="TxtSigma"
+				refimgid="07193992-879b-450d-a1c5-c4eeb45db22f"
+				refpath="/form[@controlname='MainWindow']/element[@controltypename='MdiClient']/form[@controlname='DesignChildWindow']/container[@controlname='panel1']/container[@controlname='panelDesign']/container[@controlname='tablayoutpanDesignInputOutput']/container[@controlname='commonContainer']/container[@controlname='tblCommonContainer']/container[@controlname='pnlUserControlCollection']/container[@controlname='commonContainer_designContainerUC']/tabpagelist[@controlname='tabDesignPanel']/tabpage[@controlname='tabErrRates']/container[@controlname='cyTableLayoutPanel1']/container[@controlname='commonContainer_designContainerUC_endPointParamsUC']/container[@controlname='commonContainer_designContainerUC_endPointParamsUC_diffOfMeansUC']/container[@controlname='grpStdDev']/text[@controlname='txtSigma']"
+				searchtimeout="30000ms">
+					/form[@controlname='MainWindow']/?/?/form[@controlname='DesignChildWindow']/container[@controlname='panel1']//container[@controlname='commonContainer']/?/?/container[@controlname='pnlUserControlCollection']//tabpage[@controlname='tabErrRates']/?/?/container[@controlname='commonContainer_designContainerUC_endPointParamsUC']/?/?/container[@controlname='grpStdDev']/text[@controlname='txtSigma']
+				</item>
+				<item
+				addcaps="text,control,nativewindow"
+				capname="text"
+				id="d7c38a1f-855e-4e94-ba82-948b74037ac9"
+				name="LblInputMethod"
+				refimgid="a0eab9a1-d74b-4e49-8e6d-a07f15723d3f"
+				refpath="/form[@controlname='MainWindow']/element[@controltypename='MdiClient']/form[@controlname='DesignChildWindow']/container[@controlname='panel1']/container[@controlname='panelDesign']/container[@controlname='tablayoutpanDesignInputOutput']/container[@controlname='commonContainer']/container[@controlname='tblCommonContainer']/container[@controlname='pnlUserControlCollection']/container[@controlname='commonContainer_designContainerUC']/tabpagelist[@controlname='tabDesignPanel']/tabpage[@controlname='tabErrRates']/container[@controlname='cyTableLayoutPanel1']/container[@controlname='commonContainer_designContainerUC_endPointParamsUC']/container[@controlname='commonContainer_designContainerUC_endPointParamsUC_diffOfMeansUC']/text[@controlname='lblInputMethod']"
+				searchtimeout="30000ms">
+					/form[@controlname='MainWindow']/?/?/form[@controlname='DesignChildWindow']/container[@controlname='panel1']//container[@controlname='commonContainer']/?/?/container[@controlname='pnlUserControlCollection']/?/?/tabpagelist[@controlname='tabDesignPanel']/tabpage[@controlname='tabErrRates']/?/?/container[@controlname='commonContainer_designContainerUC_endPointParamsUC']/?/?/text[@controlname='lblInputMethod']
+				</item>
+				<item
+				addcaps="combobox,control,nativewindow"
+				capname="combobox"
+				id="3dac9cd8-ebdb-4566-9746-e7a7f0d12ab3"
+				name="CmbInputMethod"
+				refimgid="598ad658-618c-42f8-814d-2f1ddd5d7aff"
+				refpath="/form[@controlname='MainWindow']/element[@controltypename='MdiClient']/form[@controlname='DesignChildWindow']/container[@controlname='panel1']/container[@controlname='panelDesign']/container[@controlname='tablayoutpanDesignInputOutput']/container[@controlname='commonContainer']/container[@controlname='tblCommonContainer']/container[@controlname='pnlUserControlCollection']/container[@controlname='commonContainer_designContainerUC']/tabpagelist[@controlname='tabDesignPanel']/tabpage[@controlname='tabErrRates']/container[@controlname='cyTableLayoutPanel1']/container[@controlname='commonContainer_designContainerUC_endPointParamsUC']/container[@controlname='commonContainer_designContainerUC_endPointParamsUC_diffOfMeansUC']/combobox[@controlname='cmbInputMethod']"
+				searchtimeout="30000ms">
+					/form[@controlname='MainWindow']/?/?/form[@controlname='DesignChildWindow']/container[@controlname='panel1']//container[@controlname='commonContainer']/?/?/container[@controlname='pnlUserControlCollection']/?/?/tabpagelist[@controlname='tabDesignPanel']/tabpage[@controlname='tabErrRates']/?/?/container[@controlname='commonContainer_designContainerUC_endPointParamsUC']/?/?/combobox[@controlname='cmbInputMethod']
+				</item>
+				<item
+				addcaps="text,control,nativewindow"
+				capname="text"
+				id="3ebf1f4d-6776-4a17-9ea8-5570246d7e86"
+				name="LblTestStat"
+				refimgid="e862e019-a1fd-4d5a-a3b3-a65296cf9533"
+				refpath="/form[@controlname='MainWindow']/element[@controltypename='MdiClient']/form[@controlname='DesignChildWindow']/container[@controlname='panel1']/container[@controlname='panelDesign']/container[@controlname='tablayoutpanDesignInputOutput']/container[@controlname='commonContainer']/container[@controlname='tblCommonContainer']/container[@controlname='pnlUserControlCollection']/container[@controlname='commonContainer_designContainerUC']/tabpagelist[@controlname='tabDesignPanel']/tabpage[@controlname='tabErrRates']/container[@controlname='cyTableLayoutPanel1']/container[@controlname='commonContainer_designContainerUC_endPointParamsUC']/container[@controlname='commonContainer_designContainerUC_endPointParamsUC_diffOfMeansUC']/text[@controlname='lblTestStat']"
+				searchtimeout="30000ms">
+					/form[@controlname='MainWindow']/?/?/form[@controlname='DesignChildWindow']/container[@controlname='panel1']//container[@controlname='commonContainer']/?/?/container[@controlname='pnlUserControlCollection']/?/?/tabpagelist[@controlname='tabDesignPanel']/tabpage[@controlname='tabErrRates']/?/?/container[@controlname='commonContainer_designContainerUC_endPointParamsUC']/?/?/text[@controlname='lblTestStat']
+				</item>
+				<item
+				addcaps="combobox,control,nativewindow"
+				capname="combobox"
+				id="7e1ad004-2b4f-4e7d-9b2f-b463e5c1ae87"
+				name="CmbTestStat"
+				refimgid="ef7cc150-4862-4ea1-9d5e-f1f9acd356f4"
+				refpath="/form[@controlname='MainWindow']/element[@controltypename='MdiClient']/form[@controlname='DesignChildWindow']/container[@controlname='panel1']/container[@controlname='panelDesign']/container[@controlname='tablayoutpanDesignInputOutput']/container[@controlname='commonContainer']/container[@controlname='tblCommonContainer']/container[@controlname='pnlUserControlCollection']/container[@controlname='commonContainer_designContainerUC']/tabpagelist[@controlname='tabDesignPanel']/tabpage[@controlname='tabErrRates']/container[@controlname='cyTableLayoutPanel1']/container[@controlname='commonContainer_designContainerUC_endPointParamsUC']/container[@controlname='commonContainer_designContainerUC_endPointParamsUC_diffOfMeansUC']/combobox[@controlname='cmbTestStat']"
+				searchtimeout="30000ms">
+					/form[@controlname='MainWindow']/?/?/form[@controlname='DesignChildWindow']/container[@controlname='panel1']//container[@controlname='commonContainer']/?/?/container[@controlname='pnlUserControlCollection']/?/?/tabpagelist[@controlname='tabDesignPanel']/tabpage[@controlname='tabErrRates']/?/?/container[@controlname='commonContainer_designContainerUC_endPointParamsUC']/?/?/combobox[@controlname='cmbTestStat']
+				</item>
+				<item
+				addcaps="text,control,nativewindow"
+				capname="text"
+				id="a8b7c1a3-5756-41cf-8362-faebea4712e7"
+				name="LblSideType"
+				refimgid="4bcb3602-8a3c-42a0-9f28-a727e6bf2ad8"
+				refpath="/form[@controlname='MainWindow']/element[@controltypename='MdiClient']/form[@controlname='DesignChildWindow']/container[@controlname='panel1']/container[@controlname='panelDesign']/container[@controlname='tablayoutpanDesignInputOutput']/container[@controlname='commonContainer']/container[@controlname='tblCommonContainer']/container[@controlname='pnlUserControlCollection']/container[@controlname='commonContainer_designContainerUC']/tabpagelist[@controlname='tabDesignPanel']/tabpage[@controlname='tabErrRates']/container[@controlname='cyTableLayoutPanel1']/container[@controlname='commonContainer_designContainerUC_commonDesignParam']/text[@controlname='lblSideType']"
+				searchtimeout="30000ms">
+					/form[@controlname='MainWindow']/?/?/form[@controlname='DesignChildWindow']/container[@controlname='panel1']//container[@controlname='commonContainer']/?/?/container[@controlname='pnlUserControlCollection']//tabpage[@controlname='tabErrRates']/?/?/container[@controlname='commonContainer_designContainerUC_commonDesignParam']/text[@controlname='lblSideType']
+				</item>
+				<item
+				addcaps="combobox,control,nativewindow"
+				capname="combobox"
+				id="65977d15-da52-4809-839f-f22bbf15dfe0"
+				name="CmbSideType"
+				refimgid="df4daf6f-4240-4010-ae77-81cb222b9519"
+				refpath="/form[@controlname='MainWindow']/element[@controltypename='MdiClient']/form[@controlname='DesignChildWindow']/container[@controlname='panel1']/container[@controlname='panelDesign']/container[@controlname='tablayoutpanDesignInputOutput']/container[@controlname='commonContainer']/container[@controlname='tblCommonContainer']/container[@controlname='pnlUserControlCollection']/container[@controlname='commonContainer_designContainerUC']/tabpagelist[@controlname='tabDesignPanel']/tabpage[@controlname='tabErrRates']/container[@controlname='cyTableLayoutPanel1']/container[@controlname='commonContainer_designContainerUC_commonDesignParam']/combobox[@controlname='cmbSideType']"
+				searchtimeout="30000ms">
+					/form[@controlname='MainWindow']/?/?/form[@controlname='DesignChildWindow']/container[@controlname='panel1']//container[@controlname='commonContainer']/?/?/container[@controlname='pnlUserControlCollection']//tabpage[@controlname='tabErrRates']/?/?/container[@controlname='commonContainer_designContainerUC_commonDesignParam']/combobox[@controlname='cmbSideType']
+				</item>
+				<item
+				addcaps="text,control,nativewindow"
+				capname="text"
+				id="98e01fdb-dc71-4b6e-be25-91455b75d898"
+				name="TxtModifiedPower"
+				refimgid="a8de2b1e-ecd0-48d3-8ed8-8f56b47f782f"
+				refpath="/form[@controlname='MainWindow']/element[@controltypename='MdiClient']/form[@controlname='DesignChildWindow']/container[@controlname='panel1']/container[@controlname='panelDesign']/container[@controlname='tablayoutpanDesignInputOutput']/container[@controlname='commonContainer']/container[@controlname='tblCommonContainer']/container[@controlname='pnlUserControlCollection']/container[@controlname='commonContainer_designContainerUC']/tabpagelist[@controlname='tabDesignPanel']/tabpage[@controlname='tabErrRates']/container[@controlname='cyTableLayoutPanel1']/container[@controlname='commonContainer_designContainerUC_endPointParamsUC']/container[@controlname='commonContainer_designContainerUC_endPointParamsUC_diffOfMeansUC']/text[@controlname='txtModifiedPower']"
+				searchtimeout="30000ms">
+					/form[@controlname='MainWindow']/?/?/form[@controlname='DesignChildWindow']/container[@controlname='panel1']//container[@controlname='commonContainer']/?/?/container[@controlname='pnlUserControlCollection']/?/?/tabpagelist[@controlname='tabDesignPanel']/tabpage[@controlname='tabErrRates']/?/?/container[@controlname='commonContainer_designContainerUC_endPointParamsUC']/?/?/text[@controlname='txtModifiedPower']
+				</item>
+				<item
+				addcaps="container,control,nativewindow"
+				capname="container"
+				id="a2175d25-da7a-4631-9189-d023a2bee60d"
+				name="PnlSymmetricAlpha"
+				refimgid="139ad742-0367-4b2e-8897-d2ee8f482f2e"
+				refpath="/form[@controlname='MainWindow']/element[@controltypename='MdiClient']/form[@controlname='DesignChildWindow']/container/container/container/container/container/container[@controlname='pnlUserControlCollection']/container/tabpagelist/tabpage[@controlname='tabErrRates']/container/container[@controlname='commonContainer_designContainerUC_commonDesignParam']/container[@controlname='pnlSymmetricAlpha']"
+				searchtimeout="30000ms">
+					/form[@controlname='MainWindow']/?/?/form[@controlname='DesignChildWindow']/container[@controlname='panel1']//container[@controlname='commonContainer']/?/?/container[@controlname='pnlUserControlCollection']//tabpage[@controlname='tabErrRates']/?/?/container[@controlname='commonContainer_designContainerUC_commonDesignParam']/container[@controlname='pnlSymmetricAlpha']
+				</item>
+				<item
+				addcaps="text,control,nativewindow"
+				capname="text"
+				id="769302a3-17df-45f6-9011-1d667b6738f7"
+				name="TxtMeanTRMTSup"
+				refimgid="42751262-1319-4fe7-ad97-eaac106a3650"
+				refpath="/form[@controlname='MainWindow']/element[@controltypename='MdiClient']/form[@controlname='DesignChildWindow']/container/container/container/container/container/container[@controlname='pnlUserControlCollection']/container/tabpagelist/tabpage[@controlname='tabErrRates']/container/container[@controlname='commonContainer_designContainerUC_endPointParamsUC']/container/container[@controlname='tblPanelDiffOfMeans']/container[@controlname='grpMeanCtrl']/text[@controlname='txtMeanTRMTSup']"
+				searchtimeout="30000ms">
+					/form[@controlname='MainWindow']/?/?/form[@controlname='DesignChildWindow']/container[@controlname='panel1']//container[@controlname='commonContainer']/?/?/container[@controlname='pnlUserControlCollection']//tabpage[@controlname='tabErrRates']/?/?/container[@controlname='commonContainer_designContainerUC_endPointParamsUC']/?/?/container[@controlname='tblPanelDiffOfMeans']/container[@controlname='grpMeanCtrl']/text[@controlname='txtMeanTRMTSup']
+				</item>
+				<item
+				addcaps="tabpage,accessible"
+				capname="tabpage"
+				id="d52772ee-450f-47ec-ae48-a9589d9cd2fb"
+				name="TestParameters"
+				refimgid="d5a863c4-58e1-4718-83dd-976344721a77"
+				refpath="/form[@controlname='MainWindow']/element[@controltypename='MdiClient']/form[@controlname='DesignChildWindow']/container/container[@controlname='panelDesign']/container/container/container/container[@controlname='pnlUserControlCollection']/container/tabpagelist/tabpage[@accessiblename='Test Parameters       ']"
+				searchtimeout="30000ms">
+					/form[@controlname='MainWindow']/?/?/form[@controlname='DesignChildWindow']/container[@controlname='panel1']//container[@controlname='commonContainer']/?/?/container[@controlname='pnlUserControlCollection']//tabpage[@accessiblename='Test Parameters       ']
+				</item>
+				<item
+				addcaps="container,control,nativewindow"
+				capname="container"
+				id="82cc06ee-5867-4062-af27-4731414f4de6"
+				name="PnlCommonParameters"
+				refimgid="087c1f6f-fe88-481d-a158-7e2af62ae996"
+				refpath="/form[@controlname='MainWindow']/element[@controltypename='MdiClient']/form[@controlname='DesignChildWindow']/container/container[@controlname='panelDesign']/container/container/container/container[@controlname='pnlUserControlCollection']/container/tabpagelist/tabpage[@controlname='tabErrRates']/container/container[@controlname='commonContainer_designContainerUC_commonDesignParam']/container[@controlname='pnlCommonParameters']"
+				searchtimeout="30000ms">
+					/form[@controlname='MainWindow']/?/?/form[@controlname='DesignChildWindow']/container[@controlname='panel1']//container[@controlname='commonContainer']/?/?/container[@controlname='pnlUserControlCollection']//tabpage[@controlname='tabErrRates']/?/?/container[@controlname='commonContainer_designContainerUC_commonDesignParam']/container[@controlname='pnlCommonParameters']
+				</item>
+				<item
+				addcaps="container,control,nativewindow"
+				capname="container"
+				id="9bdab4a0-b68c-462d-8a7a-ee3d0ccc0578"
+				name="CommonContainerDesignContainerUCCommon"
+				refimgid="8dd73879-b9cf-4720-b088-0dceeb0d57f2"
+				refpath="/form[@controlname='MainWindow']/element[@controltypename='MdiClient']/form[@controlname='DesignChildWindow']/container/container/container/container/container/container[@controlname='pnlUserControlCollection']/container/tabpagelist/tabpage[@controlname='tabErrRates']/container/container[@controlname='commonContainer_designContainerUC_commonDesignParam']"
+				searchtimeout="30000ms">
+					/form[@controlname='MainWindow']/?/?/form[@controlname='DesignChildWindow']/container[@controlname='panel1']//container[@controlname='commonContainer']/?/?/container[@controlname='pnlUserControlCollection']/?/?/tabpagelist[@controlname='tabDesignPanel']/tabpage[@controlname='tabErrRates']/?/?/container[@controlname='commonContainer_designContainerUC_commonDesignParam']
+				</item>
+				<basepath>
+					/form[@controlname='MainWindow']/?/?/form[@controlname='DesignChildWindow']/container[@controlname='panel1']//container[@controlname='commonContainer']/?/?/container[@controlname='pnlUserControlCollection']
+				</basepath>
+			</folder>
+			<item
+			addcaps="text,control,nativewindow"
+			capname="text"
+			id="14f23221-b1bf-43b8-9c07-15ada4053889"
+			name="LblTrialType"
+			refimgid="c4cf6eef-faf2-4db4-8608-89a5bc8a7767"
+			refpath="/form[@controlname='MainWindow']/element[@controltypename='MdiClient']/form[@controlname='DesignChildWindow']/container[@controlname='panel1']/container[@controlname='panelDesign']/container[@controlname='tablayoutpanDesignInputOutput']/container[@controlname='commonContainer']/container[@controlname='tblCommonContainer']/container[@controlname='pnlCommonControls']/text[@controlname='lblTrialType']"
+			searchtimeout="30000ms">
+				/form[@controlname='MainWindow']/?/?/form[@controlname='DesignChildWindow']/container[@controlname='panel1']//container[@controlname='commonContainer']/?/?/container[@controlname='pnlCommonControls']/text[@controlname='lblTrialType']
+			</item>
+			<item
+			addcaps="combobox,control,nativewindow"
+			capname="combobox"
+			id="e3515fc1-ecac-41d1-8eb5-35363ca51cbd"
+			name="CmbTrialType"
+			refimgid="91890ce3-50d6-4ea1-be95-3b60c5330d61"
+			refpath="/form[@controlname='MainWindow']/element[@controltypename='MdiClient']/form[@controlname='DesignChildWindow']/container[@controlname='panel1']/container[@controlname='panelDesign']/container[@controlname='tablayoutpanDesignInputOutput']/container[@controlname='commonContainer']/container[@controlname='tblCommonContainer']/container[@controlname='pnlCommonControls']/combobox[@controlname='cmbTrialType']"
+			searchtimeout="30000ms">
+				/form[@controlname='MainWindow']/?/?/form[@controlname='DesignChildWindow']/container[@controlname='panel1']//container[@controlname='commonContainer']/?/?/container[@controlname='pnlCommonControls']/combobox[@controlname='cmbTrialType']
+			</item>
+			<item
+			addcaps="button,control,nativewindow"
+			capname="button"
+			id="da5cf6d8-7c9d-45a9-bae1-041ee9cbf039"
+			name="BtnCompute"
+			refimgid="48988280-88d1-4bf0-a657-b79873709084"
+			refpath="/form[@controlname='MainWindow']/element[@controltypename='MdiClient']/form[@controlname='DesignChildWindow']/container/container/container/container/container/container[@controlname='pnlButtonCollection']/button[@controlname='btnCompute']"
+			searchtimeout="30000ms">
+				/form[@controlname='MainWindow']/?/?/form[@controlname='DesignChildWindow']/container[@controlname='panel1']//container[@controlname='commonContainer']/?/?/container[@controlname='pnlButtonCollection']/button[@controlname='btnCompute']
+			</item>
+			<item
+			addcaps="statusbar,accessible"
+			capname="statusbar"
+			id="43dbe81c-30ec-489e-966d-1bc1bfd968c7"
+			name="DotNetBarBar"
+			refimgid="87587827-3fae-49f7-9a35-2d66d1b9e61f"
+			refpath="/form[@controlname='MainWindow']/element[@controlname='barStatus']/statusbar[@accessiblename='DotNetBar Bar']"
+			searchtimeout="30000ms">
+				/form[@controlname='MainWindow']/?/?/statusbar[@accessiblename='DotNetBar Bar']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="c820b843-ef23-45b1-9233-6376845017f7"
+			name="Close"
+			refimgid="84df6078-c192-47ae-bfb5-f3984680dc26"
+			refpath="/form[@controlname='MainWindow']/element[@controltypename='MdiClient']/form[@controlname='DesignChildWindow']/titlebar/button[@accessiblename='Close']"
+			searchtimeout="30000ms">
+				/form[@controlname='MainWindow']/?/?/form[@controlname='DesignChildWindow']/?/?/button[@accessiblename='Close']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="b8b613d2-819c-436c-a366-61f0c6ad6247"
+			name="Open"
+			refimgid="b844217c-1833-4c64-b2ac-b790ea0df823"
+			refpath="/form[@controlname='MainWindow']/element[@controltypename='MdiClient']/form[@controlname='DesignChildWindow']/container/container[@controlname='panelDesign']/container/container/container/container[@controlname='pnlCommonControls']/combobox[@controlname='cmbTrialType']/button[@accessiblename='Open']"
+			searchtimeout="30000ms">
+				/form[@controlname='MainWindow']/?/?/form[@controlname='DesignChildWindow']/?/?/container[@controlname='panelDesign']//container[@controlname='pnlCommonControls']/combobox[@controlname='cmbTrialType']/button[@accessiblename='Open']
+			</item>
+			<item
+			addcaps="combobox,control,nativewindow"
+			capname="combobox"
+			id="7a3f5421-aab4-4f21-b6dd-509c814647da"
+			name="CmbLooks"
+			refimgid="60a5efca-7450-4325-a468-dc3ccad266e9"
+			refpath="/form[@controlname='MainWindow']/element[@controltypename='MdiClient']/form[@controlname='DesignChildWindow']/container/container[@controlname='panelDesign']/container/container/container/container[@controlname='pnlCommonControls']/combobox[@controlname='cmbLooks']"
+			searchtimeout="30000ms">
+				/form[@controlname='MainWindow']/?/?/form[@controlname='DesignChildWindow']/container[@controlname='panel1']/container[@controlname='panelDesign']//container[@controlname='pnlCommonControls']/combobox[@controlname='cmbLooks']
+			</item>
+			<basepath>
+				/form[@controlname='MainWindow']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAKoSURBVDhPbVNbSxRhGJ67wHCddEENSsXYiygo
+yDTIDlbQgSKKkorSoizL6GBHqG46GHnRRf0F6aabujDdnZnddVdd3dYsLfPCAknciMwozJnd+Z6e
+mW8iBB942e/75n3f53kPq8yHGV0tMTXfI0vLG7E034SpqR1m1HdEtCsLPJf5IbSFhRlDTWfb/bA7
+SiHCVbRK2Noq2K/8yHbmwwznPvTc58IycivtUCFEqAR4/wAYfQJ8fAx8eQF8fibv/fUQncWwDHXM
+C5NAOKdI6IshtADQvRdInaOdBwYuAiOtwPQH4PVp3i9TTYAk5choatwLd9gL0kJfTrlraOuA2A6g
+5wDtIBNdgAMR2QBEq92SRKgUMKdhaWq18ieaVyb0FbBDZHcco9uA+G6I2B6q2Qf0HXffkWzk23Z+
+r2GJLVQ1DCuophXTUFuFwWZFNwPDrJ0Q8f1A71EgcYy/9e4bJoNueSKyCcjOAN9TJF0Kyi8cFQZl
+xfnRCZz9IQP6WXOyiQoa5N22ZEnJM/L+LQGhr2QCbdEERp4CQ/eBwVts1A3p4CBxguYpcJC6ROZB
+eU7HqK4OiqkVdODtPRmcaiYzGSc16UQIo8I7EW+uA78+eefbbkmKqfsOo+8sma9SHkfHprmNRFY6
+jj+X5ThwmufY73GXLBNZC8VZTzvC0X2NA+/uQHTt5BR2keGKDCJEeD33oJEqr5G1lkQk7G/iQvnb
+3D0wjfwWJLk0s1MyYmqITg3u+orwapZBc+bfRWXd3I++k7BjPL8sznETOMhEAmPoqeMo7zKDLROZ
+P2USrZwJKljaFibgpBJ1yOh5NV7of2SjJTFHiYhsdUcmgkWwg2VMsIxvVWQ+BdFbO3/wP/CPsjET
+q5xEijswcJPGzg80I5s4BCu8pG2ObEVR/gKmCqq9Op0UYQAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="menubar,nativewindow"
+		capname="menubar"
+		id="afe5b183-7073-4720-8d69-63a41fc571b9"
+		isrooted="True"
+		name="Explorer"
+		refpath="/menubar[@processname='explorer']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="b10f0b5c-c059-46f1-85cc-5d12d0943c57"
+			name="MasterRanorexStudioAdministrator"
+			refimgid="c828f0df-f268-484e-8c48-ddf7804bad40"
+			refpath="/menubar[@processname='explorer']/container[@controlid='40965']/container/element/toolbar/button[@accessiblename~'^Master\ -\ Ranorex\ Studio\ \(']"
+			searchtimeout="30000ms">
+				/menubar[@processname='explorer']/container[@controlid='40965']//toolbar[@accessiblename='Running applications']/button[@accessiblename~'^Master\ -\ Ranorex\ Studio\ \(']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="99ea79e1-f15a-4aa7-b99d-76795fea92f7"
+			name="East6DesignInput"
+			refimgid="cad93581-8571-4c4a-a010-5f04649cd0e6"
+			refpath="/menubar[@processname='explorer']/container[@controlid='40965']/container/element/toolbar/button[@accessiblename='East 6 - [Design Input]']"
+			searchtimeout="30000ms">
+				/menubar[@processname='explorer']/container[@controlid='40965']//toolbar[@accessiblename='Running applications']/button[@accessiblename='East 6 - [Design Input]']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="1fb620f9-11db-4488-ae9e-8ae7fd15c566"
+			name="East6"
+			refimgid="9ddd1506-3511-458f-8632-945201a11974"
+			refpath="/menubar[@processname='explorer']/container[@controlid='40965']/container/element/toolbar/button[@accessiblename='East 6']"
+			searchtimeout="30000ms">
+				/menubar[@processname='explorer']/container[@controlid='40965']//toolbar[@accessiblename='Running applications']/button[@accessiblename='East 6']
+			</item>
+			<basepath>
+				/menubar[@processname='explorer']
+			</basepath>
+			<icon>
+				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
+VZB4/J8BADyZI3kwAy98AAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="unknown,control,nativewindow"
+		capname="unknown"
+		id="9fd8e872-75b5-4d02-a6d6-2a4d5dee1252"
+		isrooted="True"
+		name="CytelArchitect2011"
+		refpath="/element[@processname='Cytel.Architect2011' and @controltypename='PopupContainer']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="menuitem,accessible"
+			capname="menuitem"
+			id="d37f526e-cf3d-49be-8406-cd11830619e3"
+			name="MenuItemBDifferenceOfMeansMN2SDI"
+			refimgid="3a89ad01-436f-4ecc-9472-b502b78fac20"
+			refpath="/element[@processname='Cytel.Architect2011' and @controltypename='PopupContainer']/element/contextmenu/menuitem[1]"
+			searchtimeout="30000ms">
+				/element[@controltypename='PopupContainer']/element[@controltypename='MenuPanel']/contextmenu/menuitem[1]
+			</item>
+			<basepath>
+				/element[@controltypename='PopupContainer']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAABKUlEQVQ4T2MYAeB+bvr/W4nR/2+E+v+/4uny/6Kdxf8F0fH/gVJC
+QMwGVoQP3IqP/I8OJvsFgwwwA2KQIfjBtUBvqDYEaHdwAxngCcQSYEX4wCUXe6g2BKg2tiHegPMW
+RlBtCFCgYYjdgPxNEf8z1wX+T17p9T9uqfP/iIU2/yd4B/xvd3T/X2du979U1+x/rqr+/3RZDewG
+pK/xg9qBAG7VdlAWAqSkLMRuQPwyV6gSBLDPNYeyECAmejp2A8IXWEOVIIBFogGUhQBBQb3YDfCf
+jRlgRiFaUBYCeHk2YzfAo87hv1Ox1X+bDJP/ZrF6/w2DNf/reKn8j4uZ9T8sdOJ/f7/O/x7ujf+d
+HKqwGwAEoJQFSmEgSUIYa0oEpW2QIMhkQhiojoENABINLWynO/eOAAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="417467a6-b09d-421c-b086-340283711257"
+		isrooted="True"
+		name="MyDocuments"
+		refpath="/form[@title='My Documents']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="tree,nativewindow"
+			capname="tree"
+			id="c76729d5-bee8-41b5-ad86-89c81321054c"
+			name="Tree100"
+			refimgid="0a6cea38-ec19-49d1-99c4-0de0d76f615e"
+			refpath="/form[@title='My Documents']/element[@class='ShellTabWindowClass']/element[@class='DUIViewWndClassName']/container/element[@class='CtrlNotifySink' and @instance='0']/element/tree[@controlid='100']"
+			searchtimeout="30000ms">
+				/form[@title='My Documents']/element[@class='ShellTabWindowClass']/?/?/container[@class='DirectUIHWND']/element[2]/?/?/tree[@controlid='100']
+			</item>
+			<basepath>
+				/form[@title='My Documents']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAKXSURBVDhPfZNdT5JhHMafL1FHfYE+QgetlWtt
+bm2tDjpo2aLNVgfOVk5zusyZqRWJCw1BIQFfUBTDWMggQ1MDARNfQBKQBwGBB5AXQVxcPTDGo5vj
+2q6z+/rd1/3f/Sfyoixv/GFLezBoasW+8RUCv5vgW3oJ7686ePTP4J6rgUv7FH811U67mlVXCJ0U
+tfoWSXIAlLUTodV2xFz9cFq5yB7q8C+rLzlzoMT2twfOYoxRHnCcnik4HZWBcnRjR1MN+XAPZr9P
+Q6fTQaPRQK1WQ6VSQalUQqFQ9BbjpwHZ1DQyiUk41CysGVTYNM/iLMnlchTjBEG/H9m0EkcpBTJx
+OQ5jY7CrqjA+1IVJKRv6n9pTzksmk50AmNtwlJxCOj6Bw+gokmEJtmbuYU4twYJmFEu7QP/iMQy+
+NGzJDHK5HKRS6XExThAhevrpg3GkoiNIhMU4CAxi4+vdUoNO+tILDXRtEqjSowAQi8UMYN/YglRk
+GInQFzo8gKj3M9an7pQamChAaAH0UaBnK1cAiEQiBhAwNCMeFCHm5yNC9iLs5mBNfqvsDIRCITMD
+/3IjYr5+UCQXIVc39h1dWB2/WWpAkuQp5yUQCBjA3mIDKM8nhJxsBByd8G21wTJWWbYBj8djAN6F
+FwjufEBguwN7m60grc0wjdwo26Cvr48B5P+7396OvY3X8Kw1wW2ux8rw9bINuFwuA9ill8W73gLP
+n0a4TXVwGmphlFzD8twEVuYViEQiBVMUVXA8HgeHw3EX4wTh0tGbpnsMu/YRbFoWbD9YMIivgs+u
+geBjLSSD7zHE74KI1wE+t+OI28OO0ID6YpwgtlUPz22q7l+xTt5+Yh6r5BnFFfPLwsuJ5uqLFe+e
+XzpfPHaGCOI/2mmwiMf8a0sAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="desktop,nativewindow"
+		capname="desktop"
+		id="b551d97e-16bb-4b1d-bfd0-e0d7c4a9fff6"
+		isrooted="True"
+		name="Explorer1"
+		refpath="/desktop[@processname='explorer']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="listitem,nativeitem,checkable"
+			capname="listitem"
+			id="ccb798e8-b4ae-4a67-8f45-2edefde11dca"
+			name="CytelArchitect2011Shortcut"
+			refimgid="ad6c43c7-0bb8-4532-ac43-b6fda6f758e6"
+			refpath="/desktop[@processname='explorer']/container/list/listitem[@text~'^Cytel\.Architect2011\ -\ Sho']"
+			searchtimeout="30000ms">
+				/desktop[@processname='explorer']/?/?/list[@controlid='1']/listitem[@text~'^Cytel\.Architect2011\ -\ Sho']
+			</item>
+			<basepath>
+				/desktop[@processname='explorer']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACBElEQVQ4T4WSUWgScRzHHfQcLPZcL0EQFNtTQU9FRUHSXhaTRbBA
+ixBRiIhAMIz2JERgT0bI1ALZy6BCyY0RMtuZeqPi0hlUE0JcyZXV7S6/u9/vdnezC/rDB/7c///5
+8L//net/43TmG/6m2Wxie9kYC8I6Xjc7eLL0wbH50aqMWVHm+Y2ChiMz7xGPx+3IgduStZnmmUoX
+i1IX6GsOaA8FQqEQRFG0A/kNsNzXflhQ5Pi8yhy7Vbae/zPAstphRmd/WWJvE2jJMAL6GsnEg/17
+kcvl7EDtUwv9zS8MBWiY8pp+OlMst4C3F/dBvnsYubFhFItFcOCP8tGCAor+yiQTJL5aB8sZ0bhE
+kj0eD5LJ5Hbg95oFBUz5/p1plu+97FmnGLpShtvtRjgctk/Q2XgD7aeBGRjZPcSYIkHrFPB6vYN3
+UFit6os1hgJ03J3QJZrrFHB8hReiALW3wlBg+bMtmpBM/4gjsGfqGQq1ZWjfi8xOSf363ILl8aeM
+I0CU3y1ClRegdnWB0KXRm0sDHDpxFecnLiMWi6HRaNiBXWfnMHzusUM4euoSJqem4ff7EQwGEYlE
+kEqlUKlUIMuyEZhJreDghYcYO3MdJ8evwefzIRAI8DGj0Siy2SxKpRKq1SokSUK73YaiKIZsjnw+
+j0QigXQ6DZoLgsDvWK/XBzc6hsu1BRMfpP7Bj/TsAAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="list,nativewindow"
+		capname="list"
+		id="856aefe8-c82b-4e3e-aaa6-e108648c410f"
+		isrooted="True"
+		name="List1000"
+		refpath="/list[@controlid='1000']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="listitem,nativeitem,checkable"
+			capname="listitem"
+			id="2ecefbe6-d8b0-4821-bdb3-1bc77da52771"
+			name="SuperSuperiority"
+			refimgid="1cb0494e-086c-46de-98c9-61fcdba51247"
+			refpath="/list[@controlid='1000']/listitem[@text='Super Superiority']"
+			searchtimeout="30000ms">
+				/list[@controlid='1000']/listitem[@text='Super Superiority']
+			</item>
+			<item
+			addcaps="listitem,nativeitem,checkable"
+			capname="listitem"
+			id="c9e7c5ff-079e-4b2c-b33f-44c50fc3dabf"
+			name="ListItem4"
+			refimgid="a71258af-df72-4043-982e-60307a183f76"
+			refpath="/list[@controlid='1000']/listitem[@text='4']"
+			searchtimeout="30000ms">
+				/list[@controlid='1000']/listitem[@text='4']
+			</item>
+			<basepath>
+				/list[@controlid='1000']
+			</basepath>
+			<icon>
+				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
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

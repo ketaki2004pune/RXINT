@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="08806c1b-043b-40cd-afd7-81a816baf3aa"
+mode="Global"
+rxversion="8.3">
+	<name>
+		LaunchtheEastapplicationnavigatetothedifferenceofmeandesignDesignTwosamplesDOMParallel
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="LaunchtheEastapplicationnavigatetothedifferenceofmeandesignDesignTwosamplesDOMParallel"
+	namespace="Master">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+	</recorditems>
+	<repository
+	id="a12d7f09-fec1-42df-8114-5fdab2124617"
+	name="MasterRepository"
+	relativepath="MasterRepository.rxrep"
+	rxversion="8.3">
+		<codegen
+		classname="MasterRepository"
+		namespace="Master">
+		</codegen>
+		<rootfolder
+		id="d3a2ae6a-0cc6-4dc4-a51c-e1c347719e71"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		LaunchtheEastapplicationnavigatetothedifferenceofmeandesignDesignTwosamplesDOMParallel.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

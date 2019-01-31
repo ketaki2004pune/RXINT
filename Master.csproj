@@ -1,0 +1,616 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{78715DDA-91DB-44E7-AC19-2D038579833D}</ProjectGuid>
+    <TargetFrameworkProfile />
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Master</RootNamespace>
+    <AssemblyName>Master</AssemblyName>
+    <RanorexVersion>8.3</RanorexVersion>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <RanorexTargetsPath>$(MSBuildProgramFiles32)\MSBuild\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
+    <projectdefaultrepository>53F298BC-094E-4D43-BA24-FEFA2232DAED</projectdefaultrepository>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>True</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Atlassian.Jira">
+      <HintPath>..\packages\Atlassian.SDK.10.4.0\lib\net452\Atlassian.Jira.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.10.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Bootstrapper">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core.Resolver">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Cef">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.ChromeWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Delphi">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.FirefoxWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Flex">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Java">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Mobile">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Msaa">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Office">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Qt">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.RawText">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Sap">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Uia">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Web">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WebDriver">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Win32">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="RestSharp">
+      <HintPath>..\packages\RestSharp.106.5.4\lib\net452\RestSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AllocationRatio.cs">
+      <BoundTo>fe6cf33f-198c-447b-977c-f985aaaf0134</BoundTo>
+      <DependentUpon>AllocationRatio.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f9bdb612-5f58-4721-9372-fc1d64dac9b3</id>
+    </Compile>
+    <Compile Include="AllocationRatio.UserCode.cs">
+      <BoundTo>fe6cf33f-198c-447b-977c-f985aaaf0134</BoundTo>
+      <DependentUpon>AllocationRatio.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>aaa4350d-7f20-49af-bfa5-1a9f0d7a169f</id>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs">
+      <id>94eddab5-ba00-4479-ab4d-ea729250a005</id>
+    </Compile>
+    <Compile Include="C101.cs">
+      <BoundTo>c92bd485-3263-41c2-817d-e4da128c3673</BoundTo>
+      <DependentUpon>C101.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>8293838a-d072-4f9f-858b-11432eded43b</id>
+    </Compile>
+    <Compile Include="C101.UserCode.cs">
+      <BoundTo>c92bd485-3263-41c2-817d-e4da128c3673</BoundTo>
+      <DependentUpon>C101.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f53bba3a-3a44-4103-89df-bd8a0c526a10</id>
+    </Compile>
+    <Compile Include="ChecktheAvailabilityoftheModifiedpowerfield.cs">
+      <BoundTo>54321d27-5e3d-4ec7-9fa2-6201ad24602c</BoundTo>
+      <DependentUpon>ChecktheAvailabilityoftheModifiedpowerfield.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>fa39647e-98f5-4477-abb8-6463b02c9e7d</id>
+    </Compile>
+    <Compile Include="ChecktheAvailabilityoftheModifiedpowerfield.UserCode.cs">
+      <BoundTo>54321d27-5e3d-4ec7-9fa2-6201ad24602c</BoundTo>
+      <DependentUpon>ChecktheAvailabilityoftheModifiedpowerfield.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>12a3f816-51d0-40d4-a193-b20a7a532d7a</id>
+    </Compile>
+    <Compile Include="DesignTypeSuperiority.cs">
+      <BoundTo>a4907fe5-76e7-46a2-a935-35a5225d68cf</BoundTo>
+      <DependentUpon>DesignTypeSuperiority.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>c2747e82-6c06-4ba5-ba2d-9f450dde5e91</id>
+    </Compile>
+    <Compile Include="DesignTypeSuperiority.UserCode.cs">
+      <BoundTo>a4907fe5-76e7-46a2-a935-35a5225d68cf</BoundTo>
+      <DependentUpon>DesignTypeSuperiority.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>14f79b07-db0d-4648-be91-b928fd5ed56b</id>
+    </Compile>
+    <Compile Include="GiveInputsinSampleSize.cs">
+      <BoundTo>46c4c128-a696-42b4-8dca-cbc883083fbb</BoundTo>
+      <DependentUpon>GiveInputsinSampleSize.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>37e8ba87-7e74-47d4-955b-2d59c0a977f2</id>
+    </Compile>
+    <Compile Include="GiveInputsinSampleSize.UserCode.cs">
+      <BoundTo>46c4c128-a696-42b4-8dca-cbc883083fbb</BoundTo>
+      <DependentUpon>GiveInputsinSampleSize.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>5366b114-599b-46d9-846e-ff92e93a5b97</id>
+    </Compile>
+    <Compile Include="GiveValuesInThePowerField.cs">
+      <BoundTo>fca65656-8d49-4ab2-bcaa-104031ef48a6</BoundTo>
+      <DependentUpon>GiveValuesInThePowerField.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>8acd4f7e-8baf-468c-ae0c-00f6112cad1b</id>
+    </Compile>
+    <Compile Include="GiveValuesInThePowerField.UserCode.cs">
+      <BoundTo>fca65656-8d49-4ab2-bcaa-104031ef48a6</BoundTo>
+      <DependentUpon>GiveValuesInThePowerField.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>b1dbd56e-88ff-48e4-9640-8111e84171c6</id>
+    </Compile>
+    <Compile Include="InputMethodIndividualmeans.cs">
+      <BoundTo>9e6515f6-e3d5-4495-b908-9d3cee19cc99</BoundTo>
+      <DependentUpon>InputMethodIndividualmeans.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>685adb88-6874-414b-9b89-56635e0cf695</id>
+    </Compile>
+    <Compile Include="InputMethodIndividualmeans.UserCode.cs">
+      <BoundTo>9e6515f6-e3d5-4495-b908-9d3cee19cc99</BoundTo>
+      <DependentUpon>InputMethodIndividualmeans.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>b545068f-949d-4243-922c-98a6ba8974e4</id>
+    </Compile>
+    <Compile Include="InputtheparametersAndValidatePowerAndmodifiedPower.cs">
+      <BoundTo>bfd5cbf7-9ab0-401d-9b01-2b61f98a83d7</BoundTo>
+      <DependentUpon>InputtheparametersAndValidatePowerAndmodifiedPower.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>548f8cab-b5b4-40d0-9abf-6bc3e9bb96cd</id>
+    </Compile>
+    <Compile Include="InputtheparametersAndValidatePowerAndmodifiedPower.UserCode.cs">
+      <BoundTo>bfd5cbf7-9ab0-401d-9b01-2b61f98a83d7</BoundTo>
+      <DependentUpon>InputtheparametersAndValidatePowerAndmodifiedPower.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>5352d223-3809-41df-ada8-1f1aa948fb68</id>
+    </Compile>
+    <Compile Include="InputtheparametersFortheTest.cs">
+      <BoundTo>d93dd79d-16d7-42df-bab4-ef8223db4deb</BoundTo>
+      <DependentUpon>InputtheparametersFortheTest.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>97f20ffd-18f9-4b3a-9f80-d72a885252ba</id>
+    </Compile>
+    <Compile Include="InputtheparametersFortheTest.UserCode.cs">
+      <BoundTo>d93dd79d-16d7-42df-bab4-ef8223db4deb</BoundTo>
+      <DependentUpon>InputtheparametersFortheTest.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>947ee71a-6740-4f20-b736-b88ba19572f4</id>
+    </Compile>
+    <Compile Include="Jira\AutoHandleJiraIntegration.cs">
+      <id>f39f0e55-226d-474d-ac1a-f946d14792c1</id>
+    </Compile>
+    <Compile Include="Jira\InitializeDefaultConfiguration.cs">
+      <id>e2326ada-7f31-4f91-b4ec-2c908f2aaaef</id>
+    </Compile>
+    <Compile Include="Jira\legacy\AutoCreateNewIssueIfTestCaseFails.cs">
+      <id>cb539944-a565-4203-b42d-392659c9931d</id>
+    </Compile>
+    <Compile Include="Jira\legacy\ReOpenExistingIssueIfTestCaseFails.cs">
+      <id>d8675991-e855-4e33-bf09-690fbc30ab98</id>
+    </Compile>
+    <Compile Include="Jira\legacy\ResolveIssueIfTestCaseSuccessful.cs">
+      <id>a77cc6d9-bef0-421a-9095-211a1663be9f</id>
+    </Compile>
+    <Compile Include="Jira\legacy\UpdateExistingIssueIfTestCaseFails.cs">
+      <id>6c7ab4b5-7a4a-4465-8a15-eeaa36e8923b</id>
+    </Compile>
+    <Compile Include="Jira\src\AbstractJiraIntegrationClient.cs">
+      <id>8ad26760-957d-4bfd-b827-69c1e7008af3</id>
+    </Compile>
+    <Compile Include="Jira\src\JiraConfiguration.cs">
+      <id>74d03d39-005b-414e-b6b7-3c430a668125</id>
+    </Compile>
+    <Compile Include="Jira\src\JiraDescriptionItem.cs">
+      <id>c3a42b46-98c1-4685-88d5-21a2dffe6e7e</id>
+    </Compile>
+    <Compile Include="Jira\src\JiraFieldHelper.cs">
+      <id>059418ec-b258-409c-a348-904c178ca791</id>
+    </Compile>
+    <Compile Include="Jira\src\JiraReporter.cs">
+      <id>ef5e9726-42ca-4d0f-948a-2854156e0731</id>
+    </Compile>
+    <Compile Include="Jira\src\ValueExtractorHelper.cs">
+      <id>1e71c982-636d-4393-aa6a-f9265eade71a</id>
+    </Compile>
+    <Compile Include="LaunchtheEastapplication.cs">
+      <BoundTo>7b3168f8-2179-4513-a709-92a7d4c04292</BoundTo>
+      <DependentUpon>LaunchtheEastapplication.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>1f69e1a2-185d-4844-a19a-59c257e15c17</id>
+    </Compile>
+    <Compile Include="LaunchtheEastapplication.UserCode.cs">
+      <BoundTo>7b3168f8-2179-4513-a709-92a7d4c04292</BoundTo>
+      <DependentUpon>LaunchtheEastapplication.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>4e66b920-6b3f-4e2d-a44e-2e51a3640133</id>
+    </Compile>
+    <Compile Include="LaunchtheEastapplicationnavigatetothedifferenceofmeandesignDesignTwosamplesDOMParallel.cs">
+      <BoundTo>b7d1a827-9420-4a12-9958-3873681a1a9a</BoundTo>
+      <DependentUpon>LaunchtheEastapplicationnavigatetothedifferenceofmeandesignDesignTwosamplesDOMParallel.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>46abdaae-1f57-46ee-9efa-946330dcc14b</id>
+    </Compile>
+    <Compile Include="LaunchtheEastapplicationnavigatetothedifferenceofmeandesignDesignTwosamplesDOMParallel.UserCode.cs">
+      <BoundTo>b7d1a827-9420-4a12-9958-3873681a1a9a</BoundTo>
+      <DependentUpon>LaunchtheEastapplicationnavigatetothedifferenceofmeandesignDesignTwosamplesDOMParallel.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>edfa8421-4374-469f-9cfc-f4e881adea1b</id>
+    </Compile>
+    <Compile Include="MasterRepository.cs">
+      <BoundTo>53F298BC-094E-4D43-BA24-FEFA2232DAED</BoundTo>
+      <DependentUpon>MasterRepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>111e3ad5-acca-4d10-a40e-5b97e344a3d4</id>
+    </Compile>
+    <Compile Include="MeanTreatmentMu_t03.cs">
+      <BoundTo>b245e39e-b2d2-4b6e-a38c-c909fbabc65b</BoundTo>
+      <DependentUpon>MeanTreatmentMu_t03.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>2e8a6e0a-c044-44cd-adfa-576d20efad52</id>
+    </Compile>
+    <Compile Include="MeanTreatmentMu_t03.UserCode.cs">
+      <BoundTo>b245e39e-b2d2-4b6e-a38c-c909fbabc65b</BoundTo>
+      <DependentUpon>MeanTreatmentMu_t03.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>71275f4f-6fb7-4cc9-9657-5842eac691aa</id>
+    </Compile>
+    <Compile Include="NavigateToDesignTwosamplesDOMParallel.cs">
+      <BoundTo>b0cd41c2-19b4-49bd-854d-7e6464408b86</BoundTo>
+      <DependentUpon>NavigateToDesignTwosamplesDOMParallel.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>e571d8be-6f99-4332-aab3-d7440c84ceaa</id>
+    </Compile>
+    <Compile Include="NavigateToDesignTwosamplesDOMParallel.UserCode.cs">
+      <BoundTo>b0cd41c2-19b4-49bd-854d-7e6464408b86</BoundTo>
+      <DependentUpon>NavigateToDesignTwosamplesDOMParallel.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f8033256-e401-4d52-9546-05a0e626cec9</id>
+    </Compile>
+    <Compile Include="Navigatetothedifferenceofmeandesign.cs">
+      <BoundTo>b3d9659b-dc9b-46d0-aefa-f188425a89d2</BoundTo>
+      <DependentUpon>Navigatetothedifferenceofmeandesign.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>958ad49c-d143-4e27-83fa-dcdeb8f9d12c</id>
+    </Compile>
+    <Compile Include="Navigatetothedifferenceofmeandesign.UserCode.cs">
+      <BoundTo>b3d9659b-dc9b-46d0-aefa-f188425a89d2</BoundTo>
+      <DependentUpon>Navigatetothedifferenceofmeandesign.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>786aeba6-5652-49e5-bee5-2065786a362d</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>d0a08b74-c216-4d25-afcc-d3550ba4cc4b</id>
+    </Compile>
+    <Compile Include="SampleRecording.cs">
+      <BoundTo>44ee9325-ee3e-4f3f-987b-4027ebedb265</BoundTo>
+      <DependentUpon>SampleRecording.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>04c105a8-0838-4ec5-a40b-8432e8353a94</id>
+    </Compile>
+    <Compile Include="SampleRecording.UserCode.cs">
+      <BoundTo>44ee9325-ee3e-4f3f-987b-4027ebedb265</BoundTo>
+      <DependentUpon>SampleRecording.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>d5239b2a-482c-4b7f-a618-cd8cd2d95d9e</id>
+    </Compile>
+    <Compile Include="SelectSampleSizeAsOutput.cs">
+      <BoundTo>2f9d6cd0-81a5-4d03-ba28-fc37c2bdb347</BoundTo>
+      <DependentUpon>SelectSampleSizeAsOutput.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>529fe520-0eea-4fa6-89f3-d9d616db70aa</id>
+    </Compile>
+    <Compile Include="SelectSampleSizeAsOutput.UserCode.cs">
+      <BoundTo>2f9d6cd0-81a5-4d03-ba28-fc37c2bdb347</BoundTo>
+      <DependentUpon>SelectSampleSizeAsOutput.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>06b90981-3134-4e68-bd17-e1c5a2eb25a9</id>
+    </Compile>
+    <Compile Include="SetSampleSizeasInput.cs">
+      <BoundTo>bf62314f-809f-4df0-b710-2f7a79e00bc2</BoundTo>
+      <DependentUpon>SetSampleSizeasInput.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>6a950047-aaf1-47b2-a002-c92b526befdd</id>
+    </Compile>
+    <Compile Include="SetSampleSizeasInput.UserCode.cs">
+      <BoundTo>bf62314f-809f-4df0-b710-2f7a79e00bc2</BoundTo>
+      <DependentUpon>SetSampleSizeasInput.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>2c4c1e06-9c56-42df-aa6e-6741828685fd</id>
+    </Compile>
+    <Compile Include="StandardDeviationσ1.cs">
+      <BoundTo>1c52ed0c-7736-4382-9349-e0dcbeef2bd4</BoundTo>
+      <DependentUpon>StandardDeviationσ1.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>e15562c9-ae67-47b9-9ae8-67083026e913</id>
+    </Compile>
+    <Compile Include="StandardDeviationσ1.UserCode.cs">
+      <BoundTo>1c52ed0c-7736-4382-9349-e0dcbeef2bd4</BoundTo>
+      <DependentUpon>StandardDeviationσ1.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>0b28d276-0859-4242-b163-54b13beb11f8</id>
+    </Compile>
+    <Compile Include="TestStatisticZ.cs">
+      <BoundTo>06d8a824-60b3-43ba-8922-67fde0381e77</BoundTo>
+      <DependentUpon>TestStatisticZ.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>021bb4c1-5fa2-4980-ac34-c6cc18df44c1</id>
+    </Compile>
+    <Compile Include="TestStatisticZ.UserCode.cs">
+      <BoundTo>06d8a824-60b3-43ba-8922-67fde0381e77</BoundTo>
+      <DependentUpon>TestStatisticZ.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>1852cef4-9800-4775-b5c0-dc73ac94ed44</id>
+    </Compile>
+    <Compile Include="TestType1Sided.cs">
+      <BoundTo>cd745b54-2d10-4480-b602-c29249cbb671</BoundTo>
+      <DependentUpon>TestType1Sided.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>b94c52f5-e107-4599-8805-3ce052ddd828</id>
+    </Compile>
+    <Compile Include="TestType1Sided.UserCode.cs">
+      <BoundTo>cd745b54-2d10-4480-b602-c29249cbb671</BoundTo>
+      <DependentUpon>TestType1Sided.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>8c86d97c-4b9c-4105-a575-2a439067dadd</id>
+    </Compile>
+    <Compile Include="UIIssue.cs">
+      <BoundTo>52043acc-dcfd-4efd-8252-aabe69350c9d</BoundTo>
+      <DependentUpon>UIIssue.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>ed418bd8-0ffd-4e7b-9a68-e6309a5a71bb</id>
+    </Compile>
+    <Compile Include="UIIssue.UserCode.cs">
+      <BoundTo>52043acc-dcfd-4efd-8252-aabe69350c9d</BoundTo>
+      <DependentUpon>UIIssue.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>aff262c5-ba0b-4fa5-ac9d-972c489baa3f</id>
+    </Compile>
+    <Compile Include="VerifytheinputparametersanditsdefaultvaluesdisplayedasbelowMeanControlMu_c0.cs">
+      <BoundTo>e4f366de-5622-44a9-b37f-b6f1d666fcc9</BoundTo>
+      <DependentUpon>VerifytheinputparametersanditsdefaultvaluesdisplayedasbelowMeanControlMu_c0.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>5dcdb09f-2612-493f-bfff-385880e1cc53</id>
+    </Compile>
+    <Compile Include="VerifytheinputparametersanditsdefaultvaluesdisplayedasbelowMeanControlMu_c0.UserCode.cs">
+      <BoundTo>e4f366de-5622-44a9-b37f-b6f1d666fcc9</BoundTo>
+      <DependentUpon>VerifytheinputparametersanditsdefaultvaluesdisplayedasbelowMeanControlMu_c0.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>6f68785f-22d2-4eeb-9fb9-fc1cafbde0ea</id>
+    </Compile>
+    <Compile Include="VerifytheinputparametersanditsdefaultvaluesdisplayedasbelowSampleSize100.cs">
+      <BoundTo>241b0f41-5384-4ec9-9488-0986d7d1040e</BoundTo>
+      <DependentUpon>VerifytheinputparametersanditsdefaultvaluesdisplayedasbelowSampleSize100.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>7d409ab2-3d05-4306-a61f-59396853d6ce</id>
+    </Compile>
+    <Compile Include="VerifytheinputparametersanditsdefaultvaluesdisplayedasbelowSampleSize100.UserCode.cs">
+      <BoundTo>241b0f41-5384-4ec9-9488-0986d7d1040e</BoundTo>
+      <DependentUpon>VerifytheinputparametersanditsdefaultvaluesdisplayedasbelowSampleSize100.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>8c5ca22f-c21a-45a8-827b-32832f72d1a7</id>
+    </Compile>
+    <Compile Include="VerifytheinputparametersanditsdefaultvaluesdisplayedasbelowTypeIErrorα0025.cs">
+      <BoundTo>1dca0f4f-1029-4088-8f45-e0dd86418421</BoundTo>
+      <DependentUpon>VerifytheinputparametersanditsdefaultvaluesdisplayedasbelowTypeIErrorα0025.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>11c3090c-19a3-42de-96d2-35924bb7616b</id>
+    </Compile>
+    <Compile Include="VerifytheinputparametersanditsdefaultvaluesdisplayedasbelowTypeIErrorα0025.UserCode.cs">
+      <BoundTo>1dca0f4f-1029-4088-8f45-e0dd86418421</BoundTo>
+      <DependentUpon>VerifytheinputparametersanditsdefaultvaluesdisplayedasbelowTypeIErrorα0025.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>2610fe3e-ded6-457f-a4fa-272e93da3e50</id>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="AllocationRatio.rxrec">
+      <BoundTo>53F298BC-094E-4D43-BA24-FEFA2232DAED</BoundTo>
+      <id>fe6cf33f-198c-447b-977c-f985aaaf0134</id>
+      <recordtableid>570534b6-b081-4ce1-bccc-e19bfb616640</recordtableid>
+    </None>
+    <None Include="app.config">
+      <id>d09aa9c8-cdb7-4101-9a32-4983b5e34b91</id>
+    </None>
+    <None Include="C101.rxrec">
+      <BoundTo>53F298BC-094E-4D43-BA24-FEFA2232DAED</BoundTo>
+      <id>c92bd485-3263-41c2-817d-e4da128c3673</id>
+      <recordtableid>61875e78-d6d8-402d-8c31-48b3e6178c3f</recordtableid>
+    </None>
+    <None Include="ChecktheAvailabilityoftheModifiedpowerfield.rxrec">
+      <BoundTo>53F298BC-094E-4D43-BA24-FEFA2232DAED</BoundTo>
+      <id>54321d27-5e3d-4ec7-9fa2-6201ad24602c</id>
+      <recordtableid>5e3e7801-32e2-4681-9a5d-67e72dbced14</recordtableid>
+    </None>
+    <None Include="DesignTypeSuperiority.rxrec">
+      <BoundTo>53F298BC-094E-4D43-BA24-FEFA2232DAED</BoundTo>
+      <id>a4907fe5-76e7-46a2-a935-35a5225d68cf</id>
+      <recordtableid>c5661497-c07b-418e-a1dc-74deb7c7f8d3</recordtableid>
+    </None>
+    <None Include="GiveInputsinSampleSize.rxrec">
+      <BoundTo>53F298BC-094E-4D43-BA24-FEFA2232DAED</BoundTo>
+      <id>46c4c128-a696-42b4-8dca-cbc883083fbb</id>
+      <recordtableid>a5f5599f-9cf8-460b-bd44-c57a7487d6a7</recordtableid>
+    </None>
+    <None Include="GiveValuesInThePowerField.rxrec">
+      <BoundTo>53F298BC-094E-4D43-BA24-FEFA2232DAED</BoundTo>
+      <id>fca65656-8d49-4ab2-bcaa-104031ef48a6</id>
+      <recordtableid>8c675f85-877c-4cbf-b544-c67295e8f152</recordtableid>
+    </None>
+    <None Include="InputMethodIndividualmeans.rxrec">
+      <BoundTo>53F298BC-094E-4D43-BA24-FEFA2232DAED</BoundTo>
+      <id>9e6515f6-e3d5-4495-b908-9d3cee19cc99</id>
+      <recordtableid>feea4e50-8474-44ec-a4a9-4b3aa6bf30a6</recordtableid>
+    </None>
+    <None Include="InputtheparametersAndValidatePowerAndmodifiedPower.rxrec">
+      <BoundTo>53F298BC-094E-4D43-BA24-FEFA2232DAED</BoundTo>
+      <id>bfd5cbf7-9ab0-401d-9b01-2b61f98a83d7</id>
+      <recordtableid>f7896ea8-9d4e-41cd-9075-048e1a3cb061</recordtableid>
+    </None>
+    <None Include="InputtheparametersFortheTest.rxrec">
+      <BoundTo>53F298BC-094E-4D43-BA24-FEFA2232DAED</BoundTo>
+      <id>d93dd79d-16d7-42df-bab4-ef8223db4deb</id>
+      <recordtableid>634390ac-675f-4225-89ca-dc8a168b1266</recordtableid>
+    </None>
+    <None Include="LaunchtheEastapplication.rxrec">
+      <id>7b3168f8-2179-4513-a709-92a7d4c04292</id>
+      <recordtableid>4e25e16d-666e-422f-9fc5-0c5d282d3822</recordtableid>
+      <BoundTo>53F298BC-094E-4D43-BA24-FEFA2232DAED</BoundTo>
+    </None>
+    <None Include="LaunchtheEastapplicationnavigatetothedifferenceofmeandesignDesignTwosamplesDOMParallel.rxrec">
+      <BoundTo>53F298BC-094E-4D43-BA24-FEFA2232DAED</BoundTo>
+      <id>b7d1a827-9420-4a12-9958-3873681a1a9a</id>
+      <recordtableid>08806c1b-043b-40cd-afd7-81a816baf3aa</recordtableid>
+    </None>
+    <None Include="MasterRepository.rximg">
+      <BoundTo>53F298BC-094E-4D43-BA24-FEFA2232DAED</BoundTo>
+      <DependentUpon>MasterRepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>caf05968-aafd-48cc-9d28-750258aaaf83</id>
+    </None>
+    <None Include="MasterRepository.rxrep">
+      <id>53F298BC-094E-4D43-BA24-FEFA2232DAED</id>
+      <repoid>a12d7f09-fec1-42df-8114-5fdab2124617</repoid>
+      <reporootid>d3a2ae6a-0cc6-4dc4-a51c-e1c347719e71</reporootid>
+    </None>
+    <None Include="MeanTreatmentMu_t03.rxrec">
+      <BoundTo>53F298BC-094E-4D43-BA24-FEFA2232DAED</BoundTo>
+      <id>b245e39e-b2d2-4b6e-a38c-c909fbabc65b</id>
+      <recordtableid>f0e1a1d2-6837-4950-8e05-0197b72066b4</recordtableid>
+    </None>
+    <None Include="NavigateToDesignTwosamplesDOMParallel.rxrec">
+      <BoundTo>53F298BC-094E-4D43-BA24-FEFA2232DAED</BoundTo>
+      <id>b0cd41c2-19b4-49bd-854d-7e6464408b86</id>
+      <recordtableid>9cc79e30-6bce-4c8f-9353-3177e2effb38</recordtableid>
+    </None>
+    <None Include="Navigatetothedifferenceofmeandesign.rxrec">
+      <BoundTo>53F298BC-094E-4D43-BA24-FEFA2232DAED</BoundTo>
+      <id>b3d9659b-dc9b-46d0-aefa-f188425a89d2</id>
+      <recordtableid>4d2f7d9c-6b55-46cd-ad42-643e65f09035</recordtableid>
+    </None>
+    <None Include="packages.config">
+      <id>83194e51-4968-416f-8954-219b2c1bd4cb</id>
+    </None>
+    <None Include="SampleRecording.rxrec">
+      <BoundTo>53F298BC-094E-4D43-BA24-FEFA2232DAED</BoundTo>
+      <id>44ee9325-ee3e-4f3f-987b-4027ebedb265</id>
+      <recordtableid>3cab7c10-d452-4c94-ace1-89564ccf4b5f</recordtableid>
+    </None>
+    <None Include="SelectSampleSizeAsOutput.rxrec">
+      <BoundTo>53F298BC-094E-4D43-BA24-FEFA2232DAED</BoundTo>
+      <id>2f9d6cd0-81a5-4d03-ba28-fc37c2bdb347</id>
+      <recordtableid>1187b1ea-8f18-4651-90a9-49d06b1e5e3d</recordtableid>
+    </None>
+    <None Include="SetSampleSizeasInput.rxrec">
+      <BoundTo>53F298BC-094E-4D43-BA24-FEFA2232DAED</BoundTo>
+      <id>bf62314f-809f-4df0-b710-2f7a79e00bc2</id>
+      <recordtableid>1b0202cd-02c5-408a-be03-961b9038567d</recordtableid>
+    </None>
+    <None Include="StandardDeviationσ1.rxrec">
+      <BoundTo>53F298BC-094E-4D43-BA24-FEFA2232DAED</BoundTo>
+      <id>1c52ed0c-7736-4382-9349-e0dcbeef2bd4</id>
+      <recordtableid>b620bc00-ddb9-47a1-842d-7a4107560fe1</recordtableid>
+    </None>
+    <None Include="TestStatisticZ.rxrec">
+      <BoundTo>53F298BC-094E-4D43-BA24-FEFA2232DAED</BoundTo>
+      <id>06d8a824-60b3-43ba-8922-67fde0381e77</id>
+      <recordtableid>c3edaf4b-2a47-4b86-8b9e-a0b5124eeb0d</recordtableid>
+    </None>
+    <None Include="TestType1Sided.rxrec">
+      <BoundTo>53F298BC-094E-4D43-BA24-FEFA2232DAED</BoundTo>
+      <id>cd745b54-2d10-4480-b602-c29249cbb671</id>
+      <recordtableid>81bfc4f3-df58-4381-8b73-afa2f395d6f3</recordtableid>
+    </None>
+    <None Include="UIIssue.rxrec">
+      <BoundTo>53F298BC-094E-4D43-BA24-FEFA2232DAED</BoundTo>
+      <id>52043acc-dcfd-4efd-8252-aabe69350c9d</id>
+      <recordtableid>4dff560e-8ca1-453e-87be-25f0487144d2</recordtableid>
+    </None>
+    <None Include="VerifytheinputparametersanditsdefaultvaluesdisplayedasbelowMeanControlMu_c0.rxrec">
+      <id>e4f366de-5622-44a9-b37f-b6f1d666fcc9</id>
+      <recordtableid>f566fe23-0fc3-4deb-a585-5b2c2e278344</recordtableid>
+      <BoundTo>53F298BC-094E-4D43-BA24-FEFA2232DAED</BoundTo>
+    </None>
+    <None Include="VerifytheinputparametersanditsdefaultvaluesdisplayedasbelowSampleSize100.rxrec">
+      <BoundTo>53F298BC-094E-4D43-BA24-FEFA2232DAED</BoundTo>
+      <id>241b0f41-5384-4ec9-9488-0986d7d1040e</id>
+      <recordtableid>a968e9dc-8888-4a5e-881d-4eaa75b5683b</recordtableid>
+    </None>
+    <None Include="VerifytheinputparametersanditsdefaultvaluesdisplayedasbelowTypeIErrorα0025.rxrec">
+      <BoundTo>53F298BC-094E-4D43-BA24-FEFA2232DAED</BoundTo>
+      <id>1dca0f4f-1029-4088-8f45-e0dd86418421</id>
+      <recordtableid>3a805164-20b5-4bf5-9c89-ceb5600c7b71</recordtableid>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Master.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>bded661c-cc45-4bda-8048-88f43a1ebe41</id>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EastSunrisers01\EastSunrisers01.csproj">
+      <Project>{964D7D31-76E7-476D-BA88-23B315B55928}</Project>
+      <Name>EastSunrisers01</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(RanorexTargetsPath)" Condition="Exists('$(RanorexTargetsPath)')" />
+</Project>
